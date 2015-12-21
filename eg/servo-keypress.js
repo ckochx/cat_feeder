@@ -1,4 +1,4 @@
-var five     = require("johnny-five");
+var five = require("../../johnny-five/lib/johnny-five");
 var Particle    = require("../lib/particle");
 var keypress = require('keypress');
 
@@ -26,7 +26,7 @@ board.on("ready", function() {
   process.stdin.setRawMode(true);
 
   process.stdin.on('keypress', function (ch, key) {
-    
+
     if ( !key ) {
       return;
     }

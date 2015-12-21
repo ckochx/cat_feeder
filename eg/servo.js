@@ -1,4 +1,4 @@
-var five = require("johnny-five"),
+var five = require("../../johnny-five/lib/johnny-five"),
   Particle = require("../lib/particle"),
   temporal = require('temporal'),
   board;
@@ -98,7 +98,7 @@ board.on("ready", function() {
 
           servo.step( 15 );
         });
-        
+
       }
     }
   ]);

@@ -1,4 +1,4 @@
-var five = require("johnny-five"),
+var five = require("../../johnny-five/lib/johnny-five"),
   Particle = require("../lib/particle"),
   board;
 
