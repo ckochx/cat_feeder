@@ -1,0 +1,1 @@
+timer_worker: node lib/servo-multi-pin.js
